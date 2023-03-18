@@ -1,0 +1,21 @@
+import random
+import smtplib
+server=smtplib.SMTP('smtp.gmail.com',587)
+
+server.starttls()
+
+password=''
+ server.login("#emailID",password)
+
+otp=''.join([str(random.randint(0,9)) for i in range(6)])
+msg='Hello, Your OTP is '+str(otp)
+sender=input("Enter Sender Email ID:")
+
+receiver=('#Enter reciever email id')  #Enter reciever email id
+print("Your OTP has sucessfully send to your email")
+
+server.sendmail(sender,receiver,msg)
+server.quit()
+
+Otp=input("Enter your OTP:")
+print("Your OTP(one-time password) has Successfully Verified\n Thankyou! ")
