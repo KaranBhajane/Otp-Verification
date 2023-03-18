@@ -12,7 +12,7 @@ msg='Hello, Your OTP is '+str(otp)
 sender=input("Enter Sender Email ID:")
 
 receiver=('#Enter reciever email id')  #Enter reciever email id
-print("Your OTP has sucessfully send to your email")
+print("Your OTP has successfully send to your email")
 
 server.sendmail(sender,receiver,msg)
 server.quit()
