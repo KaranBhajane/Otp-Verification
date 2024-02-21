@@ -22,7 +22,7 @@
 <ul type ="dot">
 <li>bash</li>
 <li>Copy code</li>
-<li>git clone https://github.com/karanbhajane/otp-verification-python.git</li>
+<li>git clone https://github.com/KaranBhajane/Otp-Verification.git</li>
 <li>Open the project in PyCharm.</li> </ul> </p>
 
 <h4>Install the required libraries using the following command:</h4>
