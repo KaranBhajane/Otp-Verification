@@ -1,38 +1,39 @@
 # Otp-Verification
-One-Time Password (OTP) Verification System using Python
-Project Description:
-This project implements a simple OTP (One-Time Password) verification system using Python. The primary goal is to provide a secure and convenient way to verify user identity through a one-time password sent via email. The project utilizes the PyCharm IDE and the following libraries: random for OTP generation and smtplib for sending emails.
+<h1>One-Time Password (OTP) Verification System using Python</h1>
+<h4>Project Description:</h4>
+<p>This project implements a simple OTP (One-Time Password) verification system using Python. The primary goal is to provide a secure and convenient way to verify user identity through a one-time password sent via email. The project utilizes the PyCharm IDE and the following libraries: random for OTP generation and smtplib for sending emails.</p>
 
-Features:
-OTP Generation: The system generates a random numeric OTP whenever verification is required.
+<h4>Features:</h4>
+<p><b>OTP Generation:</b> The system generates a random numeric OTP whenever verification is required.</p>
 
-Email Integration: The generated OTP is sent to the user's email address for verification purposes.
+<b>Email Integration:</b> The generated OTP is sent to the user's email address for verification purposes.
 
-Secure Communication: The use of OTP adds an extra layer of security, making it difficult for unauthorized users to gain access.
+<b>Secure Communication:</b> The use of OTP adds an extra layer of security, making it difficult for unauthorized users to gain access.
 
-Software Used:
-PyCharm: An integrated development environment used for coding, testing, and debugging the Python script.
-Libraries Used:
-random: Used to generate random numbers for OTP creation.
+<h4>Software Used:</h4>
+<b>PyCharm</b>: An integrated development environment used for coding, testing, and debugging the Python script.
+<h4>Libraries Used:</h4>
+<b>random:</b> Used to generate random numbers for OTP creation.
 
-smtplib: Utilized for sending emails through the Simple Mail Transfer Protocol (SMTP).
+<b>smtplib:</b> Utilized for sending emails through the Simple Mail Transfer Protocol (SMTP).
 
-Setup and Configuration:
-Clone the repository to your local machine.
+<h4>Setup and Configuration:</h4>
+<p>Clone the repository to your local machine.
+<ul type ="dot">
+<li>bash</li>
+<li>Copy code</li>
+<li>git clone https://github.com/karanbhajane/otp-verification-python.git</li>
+<li>Open the project in PyCharm.</li> </ul> </p>
 
-bash
-Copy code
-git clone https://github.com/your-username/otp-verification-python.git
-Open the project in PyCharm.
+<h4>Install the required libraries using the following command:</h4>
+<ul type="dot">
+<li> bash</li>
+<li>Copy code</li>
+<li>pip install -r requirements.txt</li>
+<li>Configure your email server settings in the script for the smtplib to work.</li>
+</ul>
 
-Install the required libraries using the following command:
-
-bash
-Copy code
-pip install -r requirements.txt
-Configure your email server settings in the script for the smtplib to work.
-
-Run the script and follow the instructions for OTP verification.
+<h4>Run the script and follow the instructions for OTP verification.</h4>
 
 Usage:
 Run the script, and it will prompt you to enter your email address.
