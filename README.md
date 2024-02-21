@@ -4,8 +4,10 @@
   <h4> Software Used:</h4>
   <ul type="dot">
     <li>Pycharm</li> <br>
-    <p> Libraries</p>
+    </ul>
+    <h4> Libraries</h4>
+    <ul type="dot"
     <li>random</li>
     <li>smtplib</li>
-  </ul>
+    </ul>
 </p>
