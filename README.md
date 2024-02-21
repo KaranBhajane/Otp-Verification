@@ -3,7 +3,7 @@
 <p>
   <h4> Software Used:</h4>
   <ul type="dot">
-    <li>Pycharm</li>
+    <li>Pycharm</li> <br>
     <p> Libraries</p>
     <li>random</li>
     <li>smtplib</li>
