@@ -2,7 +2,8 @@
 <h1> Otp Verification Project Using Python</h1>
 <p>
   <h4> Software Used:</h4>
-  <ol type="a">
+  <ul type="dot">
     <li>Pycharm</li>
-  </ol>
+    <
+  </ul>
 </p>
