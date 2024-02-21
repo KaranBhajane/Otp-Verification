@@ -3,7 +3,7 @@
 <p>
   <h4> Software Used:</h4>
   <ul type="dot">
-    <li>Pycharm</li> <br>
+    <li>Pycharm</li>
     </ul>
     <h4> Libraries</h4>
     <ul type="dot">
