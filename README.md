@@ -6,7 +6,7 @@
     <li>Pycharm</li> <br>
     </ul>
     <h4> Libraries</h4>
-    <ul type="dot"
+    <ul type="dot">
     <li>random</li>
     <li>smtplib</li>
     </ul>
